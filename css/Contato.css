@@ -45,7 +45,48 @@ nav a {
 nav a:hover {
 color: #000; /* Cor ao passar o mouse */
 }
+  
+  /* Corpo */
+  
+  #corpo {
+    padding: 20px;
+  }
+  
+  #corpo h3 {
+    margin-bottom: 20px;
+  }
+  
+  /* Redes Sociais */
+  
+  #corpo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #corpo li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #corpo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Mapa */
+  
+  #mapa iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+  
+ /* Footer */
 
-/* Seção Banner */
-.banner {
-  background-image: url('https://animaeducacao-my.sharepoint.com/:i:/
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

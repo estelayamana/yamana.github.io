@@ -45,7 +45,41 @@ nav a {
 nav a:hover {
 color: #000; /* Cor ao passar o mouse */
 }
+  
+  /* Seção Principal */
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  .section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+/* Footer */
 
-/* Seção Banner */
-.banner {
-  background-image: url('https://animaeducacao-my.sharepoint.com/:i:/
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+  
