@@ -1,0 +1,182 @@
+/* Estilo geral */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 100px; /* Define tamanho máximo do logotipo */
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease; /* Animação de mudança de cor */
+}
+
+nav a:hover {
+  color: #000; /* Cor ao passar o mouse */
+}
+
+/* Menu Dropdown (Opcional) */
+
+nav.menu-principal {
+  position: relative; /* Posicionamento relativo para submenu */
+}
+
+nav.menu-principal li {
+  position: relative; /* Posicionamento relativo para submenu */
+}
+
+nav.menu-principal ul {
+  display: none; /* Esconde submenus por padrão */
+  position: absolute; /* Posicionamento absoluto */
+  top: 100%; /* Posiciona o submenu abaixo do item principal */
+  left: 0; /* Alinha à esquerda do item principal */
+  background-color: #f9f9f9; /* Cor de fundo */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
+  width: 150px; /* Largura do submenu */
+  z-index: 1; /* Posiciona o submenu acima do conteúdo */
+}
+
+nav.menu-principal li:hover ul {
+  display: block; /* Exibe o submenu ao passar o mouse sobre o item principal */
+}
+
+nav.menu-principal li ul li {
+  padding: 10px; /* Padding para itens do submenu */
+}
+
+/* Corpo */
+
+#corpo {
+  padding: 20px;
+}
+
+#corpo h3 {
+  margin-bottom: 20px;
+}
+
+/* Redes Sociais */
+
+#corpo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#corpo li {
+  display: inline-block;
+  margin-right: 20px;
+  transition: transform 0.3s ease; /* Animação de hover */
+}
+
+#corpo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Borda arredondada para ícones */
+}
+
+#corpo li:hover img {
+  transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+/* Mapa */
+
+#mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilo básico do formulário */
+#formulario-cadastro {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos do formulário */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Rótulos dos campos */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* Botão de cadastro */
+button[type="submit"] {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Verde mais escuro */
+}
+
+/* Layout responsivo */
+@media screen and (max-width: 600px) {
+  #formulario-cadastro {
+    width: 95%;
+  }
+}
