@@ -22,58 +22,25 @@ header h1 {
   text-align: center;
 }
 
-nav {
-  text-align: center;
-}
-
-nav ul {
+.menu-dropdown {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
+.menu-dropdown li {
   display: inline-block;
-  margin: 0 10px;
 }
 
-nav a {
+.menu-dropdown li a {
+  display: block;
+  padding: 10px 15px;
   text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease; /* Animação de mudança de cor */
+  color: #000;
 }
 
-nav a:hover {
-  color: #000; /* Cor ao passar o mouse */
-}
-
-/* Menu Dropdown (Opcional) */
-
-nav.menu-principal {
-  position: relative; /* Posicionamento relativo para submenu */
-}
-
-nav.menu-principal li {
-  position: relative; /* Posicionamento relativo para submenu */
-}
-
-nav.menu-principal ul {
-  display: none; /* Esconde submenus por padrão */
-  position: absolute; /* Posicionamento absoluto */
-  top: 100%; /* Posiciona o submenu abaixo do item principal */
-  left: 0; /* Alinha à esquerda do item principal */
-  background-color: #f9f9f9; /* Cor de fundo */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
-  width: 150px; /* Largura do submenu */
-  z-index: 1; /* Posiciona o submenu acima do conteúdo */
-}
-
-nav.menu-principal li:hover ul {
-  display: block; /* Exibe o submenu ao passar o mouse sobre o item principal */
-}
-
-nav.menu-principal li ul li {
-  padding: 10px; /* Padding para itens do submenu */
+.menu-dropdown li:hover {
+  background-color: #f0f0f0;
 }
 
 /* Corpo */
