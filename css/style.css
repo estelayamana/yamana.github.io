@@ -32,25 +32,25 @@ header {
   color: BLACK; /* Defina a cor do texto */
   padding: 20px; /* Adicione espaço interno ao redor do texto */}
 
-nav {
-  text-align: center; /* Alinhamento central do menu */
-}
-
-nav ul {
+.menu-dropdown {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
+.menu-dropdown li {
   display: inline-block;
-  margin: 0 15px; /* Ajuste do espaçamento entre itens */
 }
 
-nav a {
+.menu-dropdown li a {
+  display: block;
+  padding: 10px 15px;
   text-decoration: none;
-  color: #333; /* Cor do texto do menu */
-  font-weight: bold; /* Peso da fonte do menu */
+  color: #000;
+}
+
+.menu-dropdown li:hover {
+  background-color: #f0f0f0;
 }
 
 .texto-colorido {
